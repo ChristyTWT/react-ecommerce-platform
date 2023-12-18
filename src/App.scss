@@ -1,0 +1,44 @@
+@import 'animate.css';
+@import '~loaders.css/src/animations/pacman.scss';
+@import "utilities/variables.scss";
+
+// @font-face {
+//   font-family: 'Helvetica Neue';
+//   src: url('./assets/fonts/helvetica-neue.ttf') format('ttf');
+//   font-weight: normal;
+//   font-style: normal;
+// }
+
+a,
+div,
+input,
+label,
+textarea {
+  font-family: 'Helvetica Neue', sans-serif;
+  color: $color-theme-brown;
+  letter-spacing: 1px;
+}
+
+.container {
+  max-width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+// .loader-hidden {
+//   display: none;
+// }
+
+// .loader-active {
+//   display: block;
+//   position: absolute;
+//   left: 0;
+//   right: 0;
+//   margin: auto;
+//   top: 0;
+//   bottom: 0;
+//   width: 50px;
+//   height: 50px;
+//   animation: fadeOut 1s 1s;
+//   animation-fill-mode: forwards;
+// }

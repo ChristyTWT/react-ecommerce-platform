@@ -1,0 +1,6 @@
+@import "../utilities/variables.scss";
+
+.home {
+  margin-top: calc(#{$var-logobar-height-desktop} + #{$var-category-height-desktop});
+
+}
